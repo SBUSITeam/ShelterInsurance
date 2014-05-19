@@ -1,0 +1,71 @@
+html{
+	background-color: rgb(255,255,255);
+	margin: 0px;
+	padding: 0px;
+	font-size: 24px;
+	font-family: "Tahoma", Geneva, sans-serif;
+}
+p:hover{
+	background-color: rgb(240,250,255);
+	border-color: rgb(200,220,255);
+	border-style: double;
+	border-width: 5px;
+}
+.hidden{
+	display: none;
+}
+.data_panel{
+	float: left;
+	padding: 20px;
+	height: 90%;
+	overflow: auto;
+}
+.padded{
+	padding: 50px;
+}
+#add_button{
+	margin: 20px;
+}
+#options_panel{
+	float: left;
+	padding: 20px;
+}
+#title_bar{
+	display: inline-block;
+	width: 100%;
+	background-image: url('TitleBar_Background.png');
+	background-repeat: repeat-x;
+}
+#titlebar_leftcap{
+	float: left;
+}
+#titlebar_title{
+	float: left;
+}
+#titlebar_rightcap{
+	float: right;
+}
+#titlebar_adminlink{
+	float: right;
+}
+#hostList{
+	font-size: 18pt;
+}
+#divider{
+	margin-top: 10px;
+	float: left;
+	height: 90%;
+	width: 10px;
+	background-image: url('Divider_Background.png');
+	background-repeat: repeat-y;
+	
+	position: relative;
+}
+#divider_topcap{
+	position: absolute;
+	top: 0;
+}
+#divider_bottomcap{
+	position: absolute;
+	bottom: 0;
+}
